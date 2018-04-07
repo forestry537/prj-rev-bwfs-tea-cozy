@@ -1,0 +1,172 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h4 {
+  margin: 15px 0;
+}
+
+/* Header Section  */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  flex-grow: 1;
+  min-width: 500px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+/* Content Section */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  padding-top: 69px;
+  margin: 0 auto;
+}
+
+/* Mission Section */
+
+.mission {
+  background-image: url("../image/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missionText {
+  background-color: black;
+  text-align: center;
+}
+
+/* Featured Tea Section */
+
+.featuredTea {
+  display: flex;
+  flex-direction: column;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.featuredTeaText {
+  background-color: black;
+  text-align: center;
+}
+
+.menu img {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu1 {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.menuText {
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.menu2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu21,
+.menu22 {
+  margin: 0 16px;
+}
+
+/* Locations Section */
+
+.locations {
+  background-image: url("../image/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locationsTitle {
+  text-align: center;
+  margin: 0 0;
+}
+
+.locationsOptions {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.address.oakdale {
+  opacity: 1;
+}
+
+/* Footer Section */
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
